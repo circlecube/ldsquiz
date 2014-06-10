@@ -11,13 +11,31 @@
         <meta name="viewport" content="width=device-width,initial-scale=1">
 
         <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="js/vendor/mmenu-4.0.3/source/jquery.mmenu.css">
         <link rel="stylesheet" href="css/main.css">
-
-        <script src="js/jquery-1.8.2.min.js"></script>
-        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
 
+    <div class="header">
+        <a class="menu-toggle" href="#mmenu">Menu</a>
+        <h1 class="title">LDS Prophets & Apostles</h1>
+    </div>
+
+<div id="mmenu" class="menu">
+    <ul>  
+        <li class="mm-subtitle">Leaders</li> 
+        <li class="mm-selected"><a href="#" class="quiz_prophets active">Prophets</a></li>
+        <li><a href="#" class="quiz_apostles">Apostles</a></li>
+        <li class="mm-subtitle">Levels</li> 
+        <li class="mm-selected"><a href="#" class="quiz_face active" data-value="1">Face to the Name</a></li>
+        <li><a href="#" class="quiz_name" data-value="1">Name that Face</a></li>
+        <li><a href="#" class="quiz_young" data-value="1">When They Were Young(er)</a></li>
+        <li><a href="#" class="quiz_cron" data-value="1">Who Came First</a></li>
+        <li class="mm-subtitle">More</li> 
+        <li><a href="#" class="quiz_study">Study</a></li>
+    </ul>
+</div>
         <div class="header-container">
             <header class="wrapper clearfix">
                 <nav>
@@ -482,5 +500,14 @@ $(function () {
 
 
 </script>
+
+
+        <script type="text/javascript" src="phonegap.js"></script>
+        <script type="text/javascript" src="GAPlugin.js"></script>
+        <script type="text/javascript" src="js/vendor/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="js/plugins.js"></script>
+        <script type="text/javascript" src="js/vendor/mmenu-4.0.3/source/jquery.mmenu.min.js"></script>
+        <script type="text/javascript" src="js/data.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
     </body>
 </html>
